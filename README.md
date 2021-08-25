@@ -1,15 +1,18 @@
 # VideoStream_v2_server
 Server Side for the video stream application
 
+Stay away from this code. This is 2nd most ineffcient way to create a livestreaming server. Wrote this very early on into the project, this was development code to understand project + constraints more.
 
-2nd most ineffcient way to create a livestreaming server. 
 
-The worst one was via HTTPS, expecting real time data via HTTPS POST is impossible.
+The worst version of this project was when there was a server sending data via HTTPS, expecting real time data via HTTPS POST is impossible.
 Latency was off the charts in a bad way.
 
-Some thoughts if you randomly find this in a google entry:
 
-Strategies + ideas:
+### Some thoughts if you randomly find this in a google entry:
+
+trust me i've been there many times
+
+#### Strategies + ideas:
 - HTTPS POST + Queue (Kafka is poissble, used RabbitMQ)
 - Pure Sockets (this one)
 - Websocket
