@@ -14,7 +14,7 @@ trust me i've been there many times
 
 #### Strategies + ideas:
 - HTTPS POST + Queue (Kafka is poissble, used RabbitMQ)
-- Pure Sockets (this one)
+- Pure Sockets (current repos)
 - Websocket
 - Something not looked into but should have been is a MQTT implementation
 - have python run a ffmpeg terminal command to transform desired video into HLS package, then stream that. (issue was, no real way to do that if the file that needs to be transformed is still being piped to)
