@@ -20,7 +20,7 @@ trust me i've been there many times
 - have python run a ffmpeg terminal command to transform desired video into HLS package, then stream that. (issue was, no real way to do that if the file that needs to be transformed is still being piped to)
 - PiCamera Docs had a few interesting ways (if making this for an RPI, like I was)
 - use OBS
-###### - MOST COMMON METHOD (but not code enough for me) is to configure a RTMP server using NGINX on a RPI
+- ***MOST COMMON METHOD (but not code enough for me) is to configure a RTMP server using NGINX on a RPI***
 
 Industry Standard way:
 - HLS (apple)
